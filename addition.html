@@ -1,0 +1,57 @@
+<html>
+	<!DOCTYPE html>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->      
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Custom CSS File -->    
+        <link rel="stylesheet" href="custom.css">
+		<!-- Link to jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         
+    
+      </head>
+        <!-- Nav Bar  -->
+        <ul class="nav justify-content-center">
+            <a href="index.html"> <button type="button" class="btn btn-secondary " >Home</button> </a>
+            <a href="math.html"> <button type="button" class="btn btn-secondary active" >Math</button></a>
+            <a href="socialstudies.html"> <button type="button" class="btn btn-secondary" >Social Studies</button></a>
+            <a href="science.html"> <button type="button" class="btn btn-secondary" >Science</button></a>
+            <a href="other.html"> <button type="button" class="btn btn-secondary" >Other </button></a>
+          </ul>
+          
+	<body>
+        <div class="jumbotron text-center">
+            <h1 id="title"> Addition!</h1>
+            <!-- Creates input box -->
+            <div class="inputBox">
+                <div class="num1"> </div>
+                &plus;
+                <div class="num2"> </div>
+                &equals;
+                <div class='userAnswer'> <input type='text' name='input' maxlength='5' id='answer'></div>
+
+            </div>
+
+            <!-- Will store the timer in this div -->
+		    <div class="counter"></div>
+        </div>
+		<!-- <div class="inputBox">        
+			Creates submit button for input           
+            <button type="button" id="submitButton">Submit</button>
+        </div> -->
+
+
+
+		<!-- Script to our own Javascript file -->
+		<script src="addition.js"></script>
+
+	</body>
+
+</html>
+
+
